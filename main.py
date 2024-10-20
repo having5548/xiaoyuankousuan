@@ -14,7 +14,7 @@ from get_xy import show_mouse_position
 default_image_path = "bg.png"
 
 # 配置 tesseract 的可执行文件路径
-pytesseract.pytesseract.tesseract_cmd = r'/opt/homebrew/bin/tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # 初始化全局变量
 number_region = (170, 250, 510, 370)
